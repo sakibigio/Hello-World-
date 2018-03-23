@@ -109,3 +109,5 @@ function stationary_values(k::Kalman)
     K_inf = A * Sigma_inf * G' * inv(G * Sigma_inf * G' + R)
     return Sigma_inf, K_inf
 end
+
+# Added a comment
